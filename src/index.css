@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+/* =========================
+   Fonts
+========================= */
+
+@font-face {
+  font-family: "Geist";
+  src: url("./assets/fonts/Geist[wght].woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("./assets/fonts/Outfit-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* =========================
+   Brand Theme
+========================= */
+
+@theme {
+  --font-heading: "Outfit", sans-serif;
+  --font-body: "Geist", sans-serif;
+
+  --color-brand-green: #143D30;
+  --color-brand-nav: #1B2421;
+  --color-brand-lightgreen: #25D366;
+  --color-brand-gold: #E07A2F;
+  --color-brand-cream: #FAF8F4;
+  --color-brand-muted: #4E5C56;
+}
+
+/* =========================
+   Global Styles
+========================= */
+@layer base {
+  body {
+    font-family: var(--font-body);
+    color: var(--color-brand-muted);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading);
+    color: var(--color-brand-green);
+  }
+}
