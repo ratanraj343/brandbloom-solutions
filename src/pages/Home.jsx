@@ -1,6 +1,5 @@
 import ProductGrid from "../components/ProductGrid";
 import Hero from "../components/Hero";
-import InquirySection from "../components/InquirySection";
 import ProcessSection from "../components/ProcessSection";
 import TestimonialsSection from "../components/TestimonialsSection";
 import {
@@ -135,8 +134,6 @@ const Home = () => {
         cards={mockCaseStudies}
       />
       <TestimonialsSection/>
-      <InquirySection />
-
       
     </div>
   );

@@ -87,8 +87,8 @@ const Footer = () => {
         </p>
 
         <p className="text-xs text-white/60">
-          Made with 💙 and lots of caffeine.
-        </p>
+  Made with <span className="text-brand-gold">♥</span> and lots of caffeine.
+</p>
       </div>
     </footer>
   );
